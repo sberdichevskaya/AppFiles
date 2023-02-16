@@ -1,0 +1,119 @@
+.input-container {
+    width: 240px;
+
+
+}
+
+.form{
+    position: fixed; top: 20%; left: 43%;
+    width: 250px;
+    border: 1px solid #215164;
+    box-shadow: 0px 0px 15px #215062;
+    border-radius: 4px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.input-group input {
+    padding: 0.8rem 3rem 0.8rem 0.8rem;
+    width: 100%;
+    height: 10px;
+    outline: none;
+    border: 1px solid #215164;
+    border-radius: 4px;
+    transition: width 0.9s, height 0.9s, border-radius 0.9s;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input-group input::placeholder {
+    color: #346a80;
+}
+
+.input-group input:focus {
+    border: 1px solid #55b7dd;
+    box-shadow: 0px 0px 2px 2px #55b7dd34;
+}
+.input-group .toggle {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 99;
+}
+
+.input-group .ripple {
+    background: #fff;
+    display: block;
+    position: absolute;
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.ripple-active{
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    z-index: -1;
+}
+.ripple-passive{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    right: 10px;
+    z-index: 1;
+}
+.pass-input-active{
+    color: #000000;
+    background:transparent;
+}
+.pass-input-passive{
+    color: #000000;
+    background:transparent;
+}
+
+.toggle-icon-active{
+    font-size:15px;
+}
+.toggle-icon-passive{
+    font-size:25px;
+}
+
+header {
+    position: fixed; top: 14%; left: 44.5%;
+
+}
+
+.link {
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 1px;
+    text-decoration: none;
+
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 0px solid #215164;
+    border-radius: 4px;
+    background-color: rgba(126, 148, 155, 0.92);
+
+}
+
+.btn {
+    text-align: center;
+}
